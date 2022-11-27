@@ -142,6 +142,8 @@ class TestWrapper(unittest.TestCase):
         responses.add(responses.GET, 'https://api.coingecko.com/api/v3/simple/supported_vs_currencies',
                           status = 404)
         exception = HTTPError("HTTP Error")
+        Let's
+        Test
 
         # Act Assert
         with pytest.raises(HTTPError) as HE:
